@@ -1,0 +1,30 @@
+﻿{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": [
+      "ES6"
+    ],
+    "module": "NodeNext",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": false,
+    "baseUrl": ".",
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "lib": [
+    "esnext"
+  ],
+//  "ts-node": {
+//    "esm": true
+//  }
+}

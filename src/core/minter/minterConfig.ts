@@ -1,0 +1,48 @@
+﻿import { Chain } from 'viem';
+import {
+    arbitrumNova,
+    astar,
+    canto,
+    celo,
+    confluxESpace,
+    coreDao,
+    dfk,
+    fantom,
+    fuse,
+    gnosis,
+    kava,
+    klaytn,
+    mantle,
+    meter,
+    metis,
+    moonbeam,
+    moonriver,
+    polygon,
+    telos,
+    tenet,
+} from 'viem/chains';
+
+export class MinterMerklyConfig {
+    public static chains: { [key: string]: { chain: Chain; contract: string } } = {
+        fantom: { chain: fantom, contract: '0xF56605276cefffe32DFD8B6bF80B93c2A6840136' },
+        moonbeam: { chain: moonbeam, contract: '0x671861008497782F7108D908D4dF18eBf9598b82' },
+        moonriver: { chain: moonriver, contract: '0xd{9c3D0930d70022B3C6EBA8217e4B990705540' },
+        meter: { chain: meter, contract: '0xB6c5e0d2ffC3Fc80c8D3F5A8b86b7A796A2c5782' },
+        tenet: { chain: tenet, contract: '0x2935a2804E4F902E722B64C51a831Bce2526a576' },
+        canto: { chain: canto, contract: '0x4c24Ba5177365b4c0eBae62b31945d830a858673' },
+        arbitrumNova: { chain: arbitrumNova, contract: '0xB6789dACf323d60F650628dC1da344d502bC41E3' },
+        dfk: { chain: dfk, contract: '0x457Fd60FFA26576E226252092c98921f12E90FbB' },
+        kava: { chain: kava, contract: '0x4c24Ba5177365b4c0eBae62b31945d830a858673' },
+        metis: { chain: metis, contract: '0xF450A7b8abfc99D1cDEf6656163399aD762d51Cc' },
+        celo: { chain: celo, contract: '0xC20A842e1Fc2681920C1A190552A2f13C46e7fCF' },
+        gnosis: { chain: gnosis, contract: '0x556F119C7433b2232294FB3De267747745A1dAb4' },
+        klaytn: { chain: klaytn, contract: '0x79DB0f1A83f8e743550EeB5DD5B0B83334F2F083' },
+        conflux: { chain: confluxESpace, contract: '0xE47b05F2026a82048caAECf5caE58e5AAE2405eA' },
+        fuse: { chain: fuse, contract: '0xf6b88C4a86965170dd42DBB8b53e790B3490b912' },
+        core: { chain: coreDao, contract: '0xa513F61Bc23F0eB1FC0aC4d9dab376d79bC7F3cB' },
+        polygon: { chain: polygon, contract: '0x0E1f20075C90Ab31FC2Dd91E536e6990262CF76d' },
+        astar: { chain: astar, contract: '0x4fc0D96f3d70b4D9b75671Ab92e7Be01CaBE3863' },
+        telos: { chain: telos, contract: '0x2935a2804E4F902E722B64C51a831Bce2526a576' },
+        mantle: { chain: mantle, contract: '0xE7D454d096d38b22e0C30470e7FB20B1B2aCf70D' },
+    };
+}
