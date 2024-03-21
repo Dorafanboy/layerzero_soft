@@ -1,5 +1,5 @@
 Реализовано: 
-  1. AngleBridge набив объемов Polygon->Celo/Gnosis<->Celo/Gnosis->Polygon->OKX
+  1. AngleBridge Polygon->Celo/Gnosis<->Celo/Gnosis->Polygon->OKX
   2. Bridge через defi kingdom.
   3. Gas Zip Refuel.
   4. Layer3 bridge from avax/bsc/polygon to gnosis.
